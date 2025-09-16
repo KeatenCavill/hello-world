@@ -6,3 +6,4 @@ from django.http import HttpResponse
 
 def home_pages_view(request):
     return HttpResponse("Hello, World!")
+    return HttpResponse("Kellan Stempin was here")
